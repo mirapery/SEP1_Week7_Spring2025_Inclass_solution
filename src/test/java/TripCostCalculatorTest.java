@@ -20,5 +20,4 @@ public class TripCostCalculatorTest {
         // Test case 5: Different fuel consumption rate
         assertEquals(36.00, TripCostCalculator.calculateTripCost(200, 1.80, 10.0), 0.01);
     }
-
 }
